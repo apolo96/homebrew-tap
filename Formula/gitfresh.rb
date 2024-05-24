@@ -11,7 +11,7 @@ class Gitfresh < Formula
   on_macos do
     on_intel do
       url "https://github.com/apolo96/gitfresh/releases/download/v1.0.0/gitfresh_Darwin_x86_64.tar.gz"
-      sha256 "12f69c678da7270bfe1bcea9f872346cd553ac552c292063895bc0bc0a709027"
+      sha256 "5af1d5f5d611602c4adfbe1080071a05452983cc0d36f0e1a0f8dd0400a5522f"
 
       def install
         bin.install "gitfresh"
@@ -20,7 +20,7 @@ class Gitfresh < Formula
     end
     on_arm do
       url "https://github.com/apolo96/gitfresh/releases/download/v1.0.0/gitfresh_Darwin_arm64.tar.gz"
-      sha256 "231e8553a65176ae23345e2be5beb2bfd193814448cd3e4068b55856ff8e3e6e"
+      sha256 "94c6b30b137cbb4faba521dc2436c0b80396b2f1cdf1bdbd8ffa6d03c25b3383"
 
       def install
         bin.install "gitfresh"
@@ -33,7 +33,7 @@ class Gitfresh < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/apolo96/gitfresh/releases/download/v1.0.0/gitfresh_Linux_x86_64.tar.gz"
-        sha256 "8305ee91c5c19348567d2e0fe008ad0564e938626890f24bc9f2147df01ad4c3"
+        sha256 "e12f121e5214165e4f797ed1cb3d05fd13f9a080d9c4c56b12ec81d06ec7d990"
 
         def install
           bin.install "gitfresh"
@@ -44,7 +44,7 @@ class Gitfresh < Formula
     on_arm do
       if !Hardware::CPU.is_64_bit?
         url "https://github.com/apolo96/gitfresh/releases/download/v1.0.0/gitfresh_Linux_armv7.tar.gz"
-        sha256 "4dd0e4d0aeaf7552534f9982253123fc15b7b06b28422935459ebbfd2230adc2"
+        sha256 "ed509d34250c0642010051f91e030e6768a7dab2f74b93c4fa3e84776150ed24"
 
         def install
           bin.install "gitfresh"
@@ -55,7 +55,7 @@ class Gitfresh < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/apolo96/gitfresh/releases/download/v1.0.0/gitfresh_Linux_arm64.tar.gz"
-        sha256 "cceca68382a036e93c73342499e8f398ee5343137879be540c40e13cf6086112"
+        sha256 "54ccf574a19725d2be0860b9b161d00e769c86c7f2e089c01165c2aecd467f39"
 
         def install
           bin.install "gitfresh"
